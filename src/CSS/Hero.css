@@ -1,0 +1,102 @@
+
+/* @media (max-width:1198px) {
+    .hero-heading{
+        padding-right: 0;
+        padding-left: 0;
+    }
+} */
+
+/* @media (max-width:1069px) {
+    .hero-heading{
+        font-size: 2.15rem !important;
+    }
+
+    .hero-sub{
+    font-size: 17px !important;
+    }
+} */
+
+@media (max-width: 992px) {
+    .text-col{
+        flex: 0 0 auto !important;
+    }
+    .img-col{
+        flex: 0 0 auto !important;
+    }
+}
+
+/* @media (max-width:789px){
+    .hero-heading{
+        font-size: 2rem !important;
+    }
+} */
+
+/* @media (max-width: 426px){
+    .hero-heading{
+
+    }
+} */
+
+.Hero_div{
+    background-color: #2124B1 !important;
+    background-image: url(../Images/bg-dot.png), url(../Images/bg-dot.png), url(../Images/bg-round.png), url(../Images/bg-tree.png), url(../Images/bg-bottom-hero.png);
+    background-position: 10px 10px, bottom 190px right 10px, left 55% top -1px, left 45% bottom -1px, center bottom -1px;
+    background-repeat: no-repeat;
+}
+
+.hero-heading{
+    color: white !important; 
+    font-weight: 700;
+}
+
+.hero-sub{
+    line-height: 25px;
+    font-size: 16px;
+    color:  white;
+    
+}
+
+.Quote-Button{
+    /* display: inline-block !important; */
+    /* padding: 15px 45px 15px 45px !important; */
+    color: rgb(0, 0, 0) !important;
+    background-color: white !important;
+    border-color: #F7FAFF !important;
+    border-radius:  50rem !important;
+    margin-right: 15px;
+    transition: 0.5s !important;
+
+
+}
+.Contact-Button {
+    /* display: inline-block !important; */
+    /* padding: 15px 45px 15px 45px !important; */
+    color: rgb(255, 255, 255) !important;
+    border-color: #F7FAFF !important;
+    border-radius:  50rem !important;
+}
+.Contact-Button:hover{
+    color: black !important;
+    transition: 0.5s;
+}
+
+.zoomIn {
+    animation-duration: 1s;
+    animation-name: zoomIn;
+}
+    
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.slideInLeft {
+    animation-duration: 1s;
+    animation-name: slideInLeft;
+}
+
+.slideInRight {
+    animation-duration: 1s;
+    animation-name: slideInRight;
+}
+

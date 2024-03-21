@@ -1,0 +1,59 @@
+
+.Feedback-div{
+    background-color: #2124B1 !important;
+    background: url(../Images/bg-top.png), url(../Images/bg-bottom.png);
+    background-position: left top, right bottom;  
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators{
+    display: none !important;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    display: none !important;
+
+}
+
+.testimonial-item {
+    text-align: left;
+    line-height: 150%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* display: inline-block; */
+  }
+
+.quote_icon{
+  margin-bottom: 15px;
+  font-size: xx-large;
+  color: #2124B1;
+}
+  
+.testimonial-item h6 {
+  margin-top: 1rem;
+  margin-left: 70px;
+  color: black;
+  
+}
+  
+.testimonial-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.prof{
+  margin-left: 70px;
+}
+
+.client_img{
+  position: absolute;
+  height: 55px;
+  border-radius: 50px;
+}

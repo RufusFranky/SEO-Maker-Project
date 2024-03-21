@@ -1,0 +1,35 @@
+.sticky-nav {
+    /* border: thin solid red; */
+    transition: .5s;
+    position: fixed !important;
+    background-color: white;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.20) !important;
+}
+
+.sticky-nav .brand{
+    margin-left: 0;
+}
+
+.sticky-nav .brandicon {
+    color: #2124B1 !important;
+}
+
+.sticky-nav .brandname {
+    color: #2124B1 !important;
+}
+
+.sticky-nav .navbar-nav .nav-link {
+    color: black !important;
+    padding-top: 25px;
+    padding-bottom: 25px !important;
+}
+
+.sticky-nav .navbar-nav .nav-link:hover{
+    color: #2124B1 !important;
+}
+
+.sticky-nav .navbar-nav .nav-link::before{
+    background-color: #2124B1 !important;;
+    bottom: -2px;
+}
+
