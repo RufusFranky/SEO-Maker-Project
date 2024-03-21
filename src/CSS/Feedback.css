@@ -57,3 +57,9 @@
   height: 55px;
   border-radius: 50px;
 }
+
+.fadeInUp{
+  visibility: visible;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}

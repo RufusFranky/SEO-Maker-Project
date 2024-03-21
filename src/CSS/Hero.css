@@ -1,20 +1,4 @@
 
-/* @media (max-width:1198px) {
-    .hero-heading{
-        padding-right: 0;
-        padding-left: 0;
-    }
-} */
-
-/* @media (max-width:1069px) {
-    .hero-heading{
-        font-size: 2.15rem !important;
-    }
-
-    .hero-sub{
-    font-size: 17px !important;
-    }
-} */
 
 @media (max-width: 992px) {
     .text-col{
@@ -24,18 +8,6 @@
         flex: 0 0 auto !important;
     }
 }
-
-/* @media (max-width:789px){
-    .hero-heading{
-        font-size: 2rem !important;
-    }
-} */
-
-/* @media (max-width: 426px){
-    .hero-heading{
-
-    }
-} */
 
 .Hero_div{
     background-color: #2124B1 !important;

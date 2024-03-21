@@ -1,3 +1,5 @@
+
+
 .Team-div{
     /* border:  thin solid red; */
     background-color: white;
@@ -99,6 +101,8 @@
     flex-direction: column;
     align-items: center;
     display: flex !important;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
 }
 
 .T-socialM-icon{
@@ -140,5 +144,4 @@
 .team-item:hover .desing{
     color: #FFFFFF !important;
     transition: .5s;
-
 }
