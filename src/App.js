@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import WOW from 'wow.js';
 import HeaderSection from './Section/HeaderSection'
 import Spinner from './Components/loading_spinner';
+import BackToTopButton from './Components/BackToTop';
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
     <div className='App'>
       <Spinner/>
       <HeaderSection/>
+      <BackToTopButton/>
     </div>
   );
 }

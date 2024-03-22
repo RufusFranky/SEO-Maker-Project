@@ -8,6 +8,7 @@ import ServiceSection from '../Section/ServiceSection';
 import ProjectSection from '../Section/ProjectSection';
 import FeedbackSection from '../Section/FeedbackSection';
 import TeamSection from '../Section/TeamSection';
+import FooterSection from '../Section/FooterSection';
 
 
 function HomePage(){
@@ -21,6 +22,7 @@ function HomePage(){
       <ProjectSection/>
       <FeedbackSection/>
       <TeamSection/>
+      <FooterSection/>
     </Container>
   )
 }
