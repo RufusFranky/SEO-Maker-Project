@@ -73,9 +73,9 @@ function FooterSection() {
             </Container>
             <Container className='px-lg-5'>
                 <div className='copyright'>
-                    <Row>
+                    {/* <Row>
                         <Col className='text-center md-3'>© SEO Masster, All Right Reserved. Designed By Rufus Franky</Col>
-                    </Row>
+                    </Row> */}
                 </div>
             </Container>
         </Container>
