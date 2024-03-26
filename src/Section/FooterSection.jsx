@@ -18,14 +18,12 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaPaperPlane } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
-
 import React from "react";
 import '../CSS/Footer.css'
 
 function FooterSection() {
     return(
-        <Container fluid='xxl' className="footer-div mt-5 pt-5 wow fadeIn">
+        <Container fluid='xxl' className="footer-div pt-5 wow fadeIn">
             <Container className="py-5 px-lg-5">
                 <Row className="g-5 footer-row">
                     <Col lg={3} md={6}>
@@ -42,11 +40,11 @@ function FooterSection() {
                     </Col>
                     <Col lg={3} md={6}>
                         <h5 className="mb-4 link-heading">Link</h5>
-                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow" /><Link to="/about" className="linkS">Home</Link></p>
-                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/" className="linkS">About Us</Link></p>
-                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/" className="linkS">Service</Link></p>
-                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/" className="linkS">Project</Link></p>
-                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/" className="linkS">Contact</Link></p>
+                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow" /><Link to="/" className="linkS">Home</Link></p>
+                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/about" className="linkS">About Us</Link></p>
+                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/service" className="linkS">Service</Link></p>
+                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/project" className="linkS">Project</Link></p>
+                        <p className="p-link"><MdOutlineKeyboardArrowRight className="right-arrow"/><Link to="/" className="linkS">Contact Us</Link></p>
                     </Col>
                     <Col lg={3} md={6}>
                        <h5 className="mb-4 link-heading">Gallery</h5>
@@ -74,7 +72,7 @@ function FooterSection() {
             <Container className='px-lg-5'>
                 <div className='copyright'>
                     <Row>
-                        <Col className='text-center md-3'>© SEO Masster, All Right Reserved. Designed By Rufus Franky</Col>
+                        <Col className='text-center md-3'>© SEO Master, All Right Reserved. Designed By Rufus Franky</Col>
                     </Row>
                 </div>
             </Container>

@@ -81,3 +81,8 @@
         padding-bottom:8px !important;
     }
 }
+
+.drop-link:hover{
+    background-color: rgb(226, 226, 226) !important;
+}
+
