@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const wow = new WOW({});
     wow.init();
-  },[]);
+  });
 
   return (
     <div className='App'>

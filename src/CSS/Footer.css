@@ -60,3 +60,20 @@
     letter-spacing: 2px;
     cursor: pointer;
 }
+
+.F-send-icon{
+    position: absolute !important;
+    color: #2124B1;
+    font-size: 25px;
+    margin-top: 0.70rem;
+    margin-left: -40px;
+    /* margin-right: 2rem !important; */
+    /* border: thin solid red !important; */
+}  
+
+.copyright{
+    color: #F7FAFF;
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
