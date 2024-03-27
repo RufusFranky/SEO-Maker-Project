@@ -29,7 +29,19 @@
 }
 
 .sticky-nav .navbar-nav .nav-link::before{
-    background-color: #2124B1 !important;;
+    background-color: #2124B1 !important;
     bottom: -2px;
 }
 
+.sticky-nav .dropdown-menu::before{
+  border-bottom: 7px solid #2124B1;
+}
+
+.sticky-nav .SerachForm{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.sticky-nav .searchBar-icon{
+    color: #2124B1;
+}

@@ -12,6 +12,8 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import React, { useState, useEffect } from 'react';
 import { Route, Routes, Link } from 'react-router-dom';
+import SearchForm from './SearchBar';
+
 
 function Navibar() {
   const [stickyClass, setStickyClass] = useState('');
@@ -61,19 +63,15 @@ function Navibar() {
                 <Nav.Link as={Link} to="/about" className='navLinks navLink2'>About</Nav.Link>
                 <Nav.Link as={Link} to="/service" className='navLinks navLink3'>Service</Nav.Link>
                 <Nav.Link as={Link} to="/project" className='navLinks navLink4'>Project</Nav.Link>
-                <NavDropdown 
-                  title="Pages" 
-                  className='navLinks' 
-                  id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  show={showDropdown}
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  <NavDropdown.Item as={Link} to="/" className='drop-link'>Page 1</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to="/" className='drop-link'>Page 2</NavDropdown.Item>
+                <NavDropdown title="Pages" className='navLinks' id={`offcanvasNavbarDropdown-expand-${expand}`}show={showDropdown} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                  <NavDropdown.Item as={Link} to="/" className='drop-link mb-1'>Page 1</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/" className='drop-link mb-1'>Page 2</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/" className='drop-link mb-1'>Page 3</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/" className='drop-link mb-1'>Page 4</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link as={Link} to="/contact" className='navLinks navLink5'>Contact</Nav.Link>
               </Nav>
+              <SearchForm/>
             </Offcanvas.Body> 
           </Navbar.Offcanvas>
         </Navbar>
