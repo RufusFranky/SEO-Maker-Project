@@ -84,7 +84,7 @@ function Navibar() {
         {/* <Route path="/contact" element={< />} /> */}
       </Routes>
     </Container> 
-  );
+  )
 }
 
 export default Navibar;

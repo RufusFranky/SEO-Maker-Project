@@ -19,7 +19,7 @@ function TeamSection(){
                     <h2 className='Team-sub-title'>Meet Our Team Members</h2>
                 </div>
                 <Row className='g-4'>
-                    <Col lg={4} md={3} className='animated wow zoomIn' data-wow-delay="0.1s">
+                    <Col sm={6} md={4} className='animated wow zoomIn' data-wow-delay="0.1s">
                         <div className="team-item">
                             <div className="img_and_icon">
                                 <div className="team-socialIcon">
@@ -28,7 +28,7 @@ function TeamSection(){
                                     <button className='T-socialM-icon mt-3'><BsInstagram /></button>
                                     <button className='T-socialM-icon mt-3'><FaLinkedinIn /></button>
                                 </div>
-                                <img src={team_img_1} alt="team_img" className="team_img" />
+                                <img src={team_img_1} alt="team_img" className="img-fluid team_img" />
                             </div>
                             <div className="px-4 py-2 ">
                                 <h5 className="teamEmp_name fw-bold">Jhon Doe</h5>
@@ -36,7 +36,7 @@ function TeamSection(){
                             </div>
                         </div>
                     </Col>
-                    <Col lg={4} md={3} className='animated wow zoomIn' data-wow-delay="0.3s">
+                    <Col sm={6} md={4} className='animated wow zoomIn' data-wow-delay="0.3s">
                         <div className="team-item">
                             <div className="img_and_icon">
                                 <div className="team-socialIcon">
@@ -45,7 +45,7 @@ function TeamSection(){
                                     <button className='T-socialM-icon mt-3'><BsInstagram /></button>
                                     <button className='T-socialM-icon mt-3'><FaLinkedinIn /></button>
                                 </div>
-                                <img src={team_img_2} alt="team_img" className="team_img" />
+                                <img src={team_img_2} alt="team_img" className="img-fluid team_img " />
                             </div>
                             <div className="px-4 py-2 ">
                                 <h5 className="teamEmp_name fw-bold">Emma William</h5>
@@ -53,7 +53,7 @@ function TeamSection(){
                             </div>
                         </div>
                     </Col>
-                    <Col lg={4} md={3} className='animated wow zoomIn' data-wow-delay="0.6s">
+                    <Col sm={6} md={4} className='animated wow zoomIn' data-wow-delay="0.6s">
                         <div className="team-item">
                             <div className="img_and_icon">
                                 <div className="team-socialIcon">
@@ -62,7 +62,7 @@ function TeamSection(){
                                     <button className='T-socialM-icon mt-3'><BsInstagram /></button>
                                     <button className='T-socialM-icon mt-3'><FaLinkedinIn /></button>
                                 </div>
-                                <img src={team_img_3} alt="team_img" className="team_img" />
+                                <img src={team_img_3} alt="team_img" className="img-fluid team_img" />
                             </div>
                             <div className="px-4 py-2 ">
                                 <h5 className="teamEmp_name fw-bold">Noah Michael</h5>
