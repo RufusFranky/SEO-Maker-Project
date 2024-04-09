@@ -2,7 +2,7 @@
 import {Row, Col} from 'react-bootstrap';
 import { Container } from "react-bootstrap";
 import React from 'react';
-import abtImg from '../Images/about.jpg'
+import abtImg from '../Images/about.jpg';
 import '../CSS/About.css';
 import { BsCheck } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";

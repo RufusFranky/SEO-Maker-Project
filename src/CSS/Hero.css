@@ -40,6 +40,10 @@
 
 
 }
+
+.Quote-Button:hover{
+    color: #2124B1 !important;
+}
 .Contact-Button {
     /* display: inline-block !important; */
     /* padding: 15px 45px 15px 45px !important; */
@@ -51,6 +55,7 @@
     color: black !important;
     transition: 0.5s;
 }
+
 
 .zoomIn {
     animation-duration: 1s;

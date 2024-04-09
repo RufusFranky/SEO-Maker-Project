@@ -1,9 +1,9 @@
-import portfolio_1 from '../Images/portfolio-1.jpg'
-import portfolio_2 from '../Images/portfolio-2.jpg'
-import portfolio_3 from '../Images/portfolio-3.jpg'
-import portfolio_4 from '../Images/portfolio-4.jpg'
-import portfolio_5 from '../Images/portfolio-5.jpg'
-import portfolio_6 from '../Images/portfolio-6.jpg'
+import portfolio_1 from '../Images/portfolio-1.jpg';
+import portfolio_2 from '../Images/portfolio-2.jpg';
+import portfolio_3 from '../Images/portfolio-3.jpg';
+import portfolio_4 from '../Images/portfolio-4.jpg';
+import portfolio_5 from '../Images/portfolio-5.jpg';
+import portfolio_6 from '../Images/portfolio-6.jpg';
 import { Container } from "react-bootstrap";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,7 +19,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { FaPaperPlane } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import React from "react";
-import '../CSS/Footer.css'
+import '../CSS/Footer.css';
 
 function FooterSection() {
     return(
