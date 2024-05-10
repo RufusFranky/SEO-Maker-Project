@@ -11,69 +11,69 @@ import testimonial_img3 from '../Images/testimonial-3.jpg';
 
 const testimonials = [
     {
-      id: 1,
-      content: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam',
-      author: 'Client Name',
-      profession: 'Profession',
+        id: 1,
+        content: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam',
+        author: 'Client Name',
+        profession: 'Profession',
     },
     {
-      id: 2,
-      content: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam',
-      author: 'Client Name',
-      profession: 'Profession',
+        id: 2,
+        content: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam',
+        author: 'Client Name',
+        profession: 'Profession',
     },
     {
-      id: 3,
-      content: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam',
-      author: 'Client Name',
-      profession: 'Profession',
+        id: 3,
+        content: 'Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam',
+        author: 'Client Name',
+        profession: 'Profession',
     },
 ];
 
 const TestimonialCarousel = () => {
-    return(
+    return (
         <Container fluid="xxl" className="Feedback-div py-5 my-5 wow fadeInUp">
             <Container className='px-lg-5 F-innerDiv'>
                 <Carousel>
-                {testimonials.map((testimonial) => (
-                    <Carousel.Item key={testimonial.id}>
-                        <Row>
-                        <Col>
-                        <div className="testimonial-item">
-                        <FaQuoteLeft className='quote_icon'/>
-                            <p>{testimonial.content}</p>
-                            <div>
-                            <img src={testimonial_img} className='client_img' alt="testimonial-img" />
-                            <h6>{testimonial.author}</h6>
-                            <p className='prof'>{testimonial.profession}</p>
-                            </div>
-                        </div>
-                        </Col>
-                        <Col>
-                        <div className="testimonial-item">
-                        <FaQuoteLeft className='quote_icon'/>
-                            <p>{testimonial.content}</p>
-                            <div>
-                            <img src={testimonial_img2} className='client_img' alt="testimonial-img" />
-                            <h6>{testimonial.author}</h6>
-                            <p className='prof'>{testimonial.profession}</p>
-                            </div>
-                        </div>
-                        </Col>
-                        <Col>
-                        <div className="testimonial-item">
-                        <FaQuoteLeft className='quote_icon'/>
-                            <p>{testimonial.content}</p>
-                            <div>
-                            <img src={testimonial_img3} className='client_img' alt="testimonial-img" />
-                            <h6>{testimonial.author}</h6>
-                            <p className='prof'>{testimonial.profession}</p>
-                            </div>
-                        </div>
-                        </Col>
-                        </Row>
-                    </Carousel.Item>
-                ))}
+                    {testimonials.map((testimonial) => (
+                        <Carousel.Item key={testimonial.id}>
+                            <Row>
+                                <Col>
+                                    <div className="testimonial-item">
+                                        <FaQuoteLeft className='quote_icon' />
+                                        <p>{testimonial.content}</p>
+                                        <div>
+                                            <img src={testimonial_img} className='client_img' alt="testimonial-img" />
+                                            <h6>{testimonial.author}</h6>
+                                            <p className='prof'>{testimonial.profession}</p>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <div className="testimonial-item">
+                                        <FaQuoteLeft className='quote_icon' />
+                                        <p>{testimonial.content}</p>
+                                        <div>
+                                            <img src={testimonial_img2} className='client_img' alt="testimonial-img" />
+                                            <h6>{testimonial.author}</h6>
+                                            <p className='prof'>{testimonial.profession}</p>
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <div className="testimonial-item">
+                                        <FaQuoteLeft className='quote_icon' />
+                                        <p>{testimonial.content}</p>
+                                        <div>
+                                            <img src={testimonial_img3} className='client_img' alt="testimonial-img" />
+                                            <h6>{testimonial.author}</h6>
+                                            <p className='prof'>{testimonial.profession}</p>
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </Carousel.Item>
+                    ))}
                 </Carousel>
             </Container>
         </Container>

@@ -12,10 +12,12 @@ import { useLocation } from 'react-router-dom';
 function App() {
   const { pathname } = useLocation();
 
+  // autoscroll to top
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
   
+  // onscroll animation
   useEffect(() => {
     const wow = new WOW({});
     wow.init();
